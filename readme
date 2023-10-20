@@ -1,0 +1,69 @@
+# Documentação dos Testes
+
+Este documento fornece informações sobre os testes realizados no projeto, incluindo detalhes sobre os casos de teste, como executá-los e outras considerações relevantes.
+
+## Estrutura dos Testes
+
+Os testes são organizados em duas partes principais:
+
+1. Testes de Notas (Notes):
+   - Estes testes são usados para verificar as operações relacionadas a notas, como adicionar, obter por ID e excluir notas.
+
+2. Testes de Pessoas (Persons):
+   - Estes testes são usados para verificar as operações relacionadas a pessoas, como adicionar, obter por ID e excluir pessoas.
+
+## Descrição dos Testes
+
+Aqui estão os testes disponíveis e uma breve descrição de cada um:
+
+### Testes de Notas (Notes)
+
+1. **Adicionar uma nova nota:**
+   - Verifica se é possível adicionar uma nova nota.
+   
+2. **Obter todas as notas:**
+   - Verifica se é possível obter todas as notas e se a lista está vazia no início.
+
+3. **Obter nota por ID existente:**
+   - Verifica se é possível obter uma nota por um ID existente e se os detalhes correspondem.
+
+4. **Obter nota por ID inexistente:**
+   - Verifica se obter uma nota com um ID inexistente retorna indefinido.
+
+5. **Excluir nota por ID existente:**
+   - Verifica se é possível excluir uma nota por um ID existente.
+
+6. **Tentar excluir nota por ID inexistente:**
+   - Verifica se tentar excluir uma nota com um ID inexistente não afeta a lista de notas.
+
+### Testes de Pessoas (Persons)
+
+1. **Adicionar uma nova pessoa:**
+   - Verifica se é possível adicionar uma nova pessoa.
+
+2. **Obter todas as pessoas:**
+   - Verifica se é possível obter todas as pessoas e se a lista está vazia no início.
+
+3. **Obter pessoa por ID existente:**
+   - Verifica se é possível obter uma pessoa por um ID existente e se os detalhes correspondem.
+
+4. **Obter pessoa por ID inexistente:**
+   - Verifica se obter uma pessoa com um ID inexistente retorna indefinido.
+
+5. **Excluir pessoa por ID existente:**
+   - Verifica se é possível excluir uma pessoa por um ID existente.
+
+6. **Tentar excluir pessoa por ID inexistente:**
+   - Verifica se tentar excluir uma pessoa com um ID inexistente não afeta a lista de pessoas.
+
+## Executando os Testes
+
+Certifique-se de que o ambiente de desenvolvimento esteja configurado corretamente antes de executar os testes. 
+
+```bash
+npm test
+```
+## Executando a aplicação 
+
+```bash
+npm start
